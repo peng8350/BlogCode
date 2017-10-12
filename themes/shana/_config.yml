@@ -1,0 +1,98 @@
+# Header
+menu:
+  主页: /
+  文章: /archives
+  作品: /works
+  简历: /resume
+  关于我: /about
+  
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: left
+widgets:
+- nav
+- about
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
+# Miscellaneous
+google_analytics:
+favicon: /css/images/favicon.ico
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
+
+
+# GalMenu - PC端右键调出，移动端长按
+# galmenu决定是否开启
+# mp3play决定是否开启音效
+galmenu: false
+mp3play: false
+gaymenu_item:
+- name: 首页`
+  url : /
+- name: 文章
+  url : /archives
+- name: 分类
+  url : /archives
+- name: 关于我
+  url : /about
+- name: xxxx
+  url : xxxxxxx
+
+# 社交链接
+social:
+- url: https://github.com/peng8350/
+  name: Github
+- url: mailto:peng8350@gmail.com
+  name: Gmail
+- url: https://stackoverflow.com/users/7077990/mr-jpeng
+  name: Stackoverflow
+# 友情链接
+# name : url
+link_title: 友情链接
+links:
+  简书: http://www.jianshu.com/
+  干货集中营: http://gank.io/
+  掘金: https://juejin.im/
+
+
+# Sidebar Avatar
+# in theme directory(source/images): /images/avatar.jpg
+# in site  directory(source/uploads): /uploads/avatar.jpg
+# 头像
+avatar: /css/images/avatar.png
+
+
+# 网站统计
+# 站长统计 填写id
+# eg:　
+# CNZZ: 123456789
+cnzz_tongji:
+  enable: true
+  siteid: 1264543202
+   
+# 评论
+# 友言uid
+uyan: 2145547
+
+# leadcloud访问次数统计
+# 
+leancloud_visitors:
+  enable: true
+  app_id: KJPRRYhUSCmrS6fgIkOuG3ti-gzGzoHsz
+  app_key: 3fznkc98WJ1i5dGYOzylxLDf

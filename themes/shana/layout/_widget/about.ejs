@@ -1,0 +1,46 @@
+<div class="widget-wrap">
+  <h3 class="widget-title"></h3>
+  <div class="widget">
+    <img class="avatar" src="<%= theme.avatar%>">
+    <h2 class="author"><%= config.author %></h2>
+    <h3 class="description"><%= config.description %></h3>
+    <div class="count-box">
+      <a href="/archives"><div><strong><%= site.posts.length %></strong><br>文章</div></a>
+      <a href="/categories"><div><strong><%= site.categories.length %></strong><br>分类</div></a>
+      <a href="/tags"><div><strong><%= site.tags.length %></strong><br>标签</div></a>
+    </div>
+
+
+
+
+
+    <div class="friend-link">
+      <h2><%= theme.link_title %></h2>
+      <% for (let item in theme.links){ %>
+        <a class="hvr-bounce-in" href="<%= theme.links[item] %>" target="_blank" title="<%= item %>">
+          <%= item %>
+        </a>
+      <% } %>
+    </div>
+	<br><br><br>
+      <ul ><center>
+        <a href="https://github.com/peng8350" title="Github" target="_blank"/>
+	
+<img src="/css/images/Github.png" width="35" height="35" alt="Github" />
+        </a>
+      &#8195;
+        <a href="mailto:peng8350@gmail.com" title="Gmail" target="_blank">
+	
+<img src="/css/images/Gmail.png" width="35" height="35" alt="Gmail"/>
+        </a>
+      &#8195;
+        <a href="https://stackoverflow.com/users/7077990/mr-jpeng" title="Stackoverflow" target="_blank">
+	
+<img src="/css/images/Stackoverflow.png" width="35" height="35" alt="Stackoverflow" />
+        </a>
+</center>
+    </ul>
+  </div>
+
+
+</div>
