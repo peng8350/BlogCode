@@ -7,7 +7,7 @@ tags: [Markdown,Android]
 
 ## Travis Ci有什么用?
    我经常一直看到一些很强的开源项目里,都带着build passing这个徽章,至于build passing这个如何获得呢,这就需要Travis Ci这个持续集成的东西。Travios CI即持续集成系统。对个人而言，就是让你的代码在提交到远程——这里是GitHub——后，立即自动编译，并且在失败后可以自动给你发邮件的东西。当然，除了编译，还能做自动化测试、自动部署等。对团队或企业而言，这意味着更多的东西，是敏捷开发的一种践行。
-
+<!-- more -->
 ## 注册项目
    登录 https://travis-ci.org/ 这个网站,首先你必须要有Github帐号,因为待会要获取你的Github里面的项目,点右上角acounnts,然后会要求同步github的项目,接着来到这个界面
 ![ci1.ng](/images/ci1.png)

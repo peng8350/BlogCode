@@ -8,7 +8,7 @@ tags: [Ubuntu,翻墙]
 本文采用Chrome+switchyomega+shadowsocks实现翻墙。
 
 工具: Chrome+Shadowsocks
-
+<!-- more -->
 ## First one
 通过命令行直接安装
 

@@ -7,7 +7,7 @@ tags: [Linux,Android,Java]
 
 <p>首先,本人是经常使用Ubuntu系统,毕竟写Android的绝对都是用这个系统写代码的,也不可避免偶尔重装系统,每次都要重新布置环境,所以有必要收集一下这些问题,以免我下次重装好解决这些问题,同时也有利于很多的Android开发者也遭遇同样的问题。
 <p>我的linux系统版本是Ubuntu 16.04,然后使用到InllijIdea这个智能IDE,模拟器用到genymotion+VirtualBox。genymotion版本是2.4搭配apt-get那个virtualbox版本。
-
+<!-- more -->
 # 问题1
 当我把程序build完后出现了下面的错误:
 ```

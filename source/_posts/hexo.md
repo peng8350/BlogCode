@@ -14,6 +14,7 @@ tags: [HTML+CSS,Hexo]
    npm install hexo-cli -g
 
 ```
+<!-- more -->
 在hexo安装的过程中，突然会抛出下面的错误:
 ```
    npm ERR! Failed at the hexo-util@0.6.0 postinstall script 'npm run build:highlight'.
