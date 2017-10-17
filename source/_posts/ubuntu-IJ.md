@@ -62,6 +62,7 @@ IDE一直处于build project状态,首先,你要确认你的网络有没有问�
 注意了,55gk2rcmfc6p2dg9u9ohc3hw9是随机生成的,我和大家的肯定不一样!假如没有gradle-4.2.1-all这个文件夹的话,你需要随便找一个android poj,修改它的gradle版本为4.2.1,然后进去IDE build一会儿,然后就会生成这个文件夹!
 
 # 问题5
+## 症状一
 ![adb](/images/ubuntu-p3.png)
 这个问题也是纠结了很久,adb无法使用或者端口5037被占用。网上几乎都是说什么360,豌豆啥占用了端口,把它杀死就OK了,但我这个并不是占用端口造成的！是因为Ubuntu 64位无法兼容32位的adb!解决如下:
 ### 配置环境:
@@ -79,6 +80,13 @@ source /etc/profile
   sudo apt-get install libncurses5:i386 libstdc++6:i386 zlib1g:i386
 
 ```
+
+## 症状二
+每次重启都会遇到上面这个问题,又是开启不了adb,这类情况呢,是因为我的genymotion里面设定的adb问题,是因为我adb指向了genymotion里面的adb。
+### 解决方法
+![p5](/images/ubuntu-p5.png)
+设置genymotion adb 默认是你的adb
+或许这一步你可以解决这个问题,但是我的话还是没有解决。这里我还遇到了一个坑爹问题,就是我保存后,退出genymotion再次打开genymotion,但是adb仍然默认是genymotion的adb,意思就是我每次设定了一个位置,退出后没有保存设置,这问题实在是genymotion的一个大坑,对linux系统存在bug。我也很无奈,最后我自己是通过复制我本身的adb/tools/platform-tools所有文件覆盖到genymotion/tools文件夹。
 
 # 问题6
 ![p6](/images/ubuntu-p4.png)
