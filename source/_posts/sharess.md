@@ -6,10 +6,11 @@ tags: 翻墙
 ---
 
 
-# 更新时间:2017年10月13日
+# 更新时间:2017年10月22日
 ## 分享来自本人搜集到的ss网站:
 <!-- more -->
-[https://hspess.com/](https://hspess.com)(可用)
+[https://hspess.com/](https://hspess.com)(貌似暂停)
+[new_pac](https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7)(可用)
 
 
 <p>如果还不会翻墙,请看我这个[教程](/2017/10/13/buildss/)
