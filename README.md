@@ -2,11 +2,12 @@
 这是我首页的源代码,使用的方式是Hexo搭建,主题采用Shana,这是我的[个人首页](http://peng8350.cn)
 
 ## 页面对应说明
-/source/about           关于我的页面
-/source/tags            标签页面
-/source/categories      分类页面
-/source/resume          简历页面
-/source/works           作品页面
+* /source/about           关于我页面
+* /source/tags            标签页面
+* /source/categories      分类页面
+* /source/resume          简历页面
+* /source/works           作品页面
+
 
 ```
 MIT License
