@@ -41,6 +41,35 @@ tags: [Ubuntu,翻墙]
    ssr install
    ssr config
 ```
-然后你可以使用ssr start,ssr stop等命令启动或停止SSR
+ssr config输入完后,这里有一大堆东西
+```
+{
 
+    "server": "108.61.119.120",
+    "server_ipv6": "::",
+    "server_port": 3612,
+    "local_address": "127.0.0.1",
+    "local_port": 1080,
+
+    "password": "ntdtv.com",
+    "method": "aes-256-cfb",
+    "protocol": "auth_sha1_v4",
+    "protocol_param": "",
+    "obfs": "tls1.2_ticket_auth",
+    "obfs_param": "",
+    "speed_limit_per_con": 0,
+    "speed_limit_per_user": 0,
+
+    "additional_ports" : {}, // only works under multi-user mode
+    "additional_ports_only" : false, // only works under multi-user mode
+    "timeout": 120,
+    "udp_timeout": 60,
+    "dns_ipv6": false,
+    "connect_verbose_info": 0,
+    "redirect": "",
+
+}
+
+```
+<p> 这些都不用我说了吧,我们要注意的是protocol还有obfs这两个键字,这两个东西代表SSR的协议和混淆,通常情况下都要修改一下的,其他参数看你自己实际情况更改!接着,和上面第三个步骤需要switchyomega这个插件,不过这里区别最大的是,一定要用SOCKS代理,不用HTTP代理,因为SSR默认的本地服务器类型就是SOCKS5!
 
