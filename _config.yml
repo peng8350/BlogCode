@@ -78,7 +78,7 @@ theme:  shana
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/peng8350/peng8350.github.io.git 
+  repo: https://github.com/peng8350/peng8350.github.io
   branch: master
   
 
