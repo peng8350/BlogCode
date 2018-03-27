@@ -41,3 +41,15 @@ tags: [ReactNative,Mac OS]
 
 ```
 果然不出我所料,尝试把View根节点删去就没事了,虽然解决了这个问题,但是还是很疑惑,为什么不能让我在外面多添加一个View呢?是它内部人员写的BUG还是固定为了性能让我们去掉多余的View?这个问题有待以后探讨...
+
+## 错误二
+
+<p>在ios上尝试调用fetch Api都会报 type Error:Network Request Failed,而在Android平台上没有这个问题.估计这个问题是fb官方的一个bug
+
+### 解决方法
+
+ ![错误一](/images/爬坑/图4.png)
+ 
+* 在Info.plist中添加 NSAppTransportSecurity 类型 Dictionary ; 
+* 在 NSAppTransportSecurity 下添加 NSAllowsArbitraryLoads 类型Boolean ,值设为 YES;
+ 
