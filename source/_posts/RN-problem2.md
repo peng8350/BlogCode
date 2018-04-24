@@ -7,7 +7,8 @@ tags: [ReactNative,Mac OS]
 
 # this指针
  <p>刚入门ReactNative半个月,在前期学习的过程中,总是对这个this指针的概念不是很清晰和理解,每次调用这个this也要想一想它到底是指向谁?所以,很有必要仔细研究这个this指向。
- <!--more-->
+
+<!-- more -->
 
 ## What is "this"?
  <p>众所周知,在Java面向对象语言里,它就是指向当前类的对象,Object-C,C++和JAVA都是指向当前的类对象,但是Javascript里面的this指针和其他语言的this不是一个概念。简单一句话来说,JavaScript里面的this就是指向调用它的那个对象,或许这么一说,你还是有点模糊。不过往下看!
