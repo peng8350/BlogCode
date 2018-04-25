@@ -88,5 +88,7 @@ Another exception was thrown: Scaffold.of() called with a context that does not 
 }
 ```
 
+不过,应该还有另外的解决办法,我的想法呢,可以事先捕获一个Scaffold全局变量,这个变量是永远存在于界面中,就像Toast.show()里的Context,可以传入getApplicationContext获得应用程序的上下文来作为容器显示Toast一样的道理。只不过现在我对这个框架还是刚学一两天,不懂怎么全局。
+
 ## 分析
 感觉这是一个BUG,毕竟哪有这么麻烦要我们开多一个类去写Toast呢对吧。
