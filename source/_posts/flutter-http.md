@@ -16,7 +16,9 @@ tags: [Flutter,Dart,跨平台]
 第一种方法就是利用dart里http库(不采用链式写法)
 
 ```
-  
+
+import 'package:http/http.dart' as http;
+
  http.Response response =
     await http.get("http://gank.io/api/day/2015/08/07");
     final resJson = json.decode(response.body)['results']['Android'];
@@ -32,7 +34,8 @@ tags: [Flutter,Dart,跨平台]
 第二种就是通过io库里的httpClient(链式写法),上面其实也可以和下面这种那样的写法
 
 ```
-	
+import 'dart:io';
+
  httpClient.getUrl(url).then((HttpClientRequest request){
       return request.close();//关闭连接并返回一个带response的future对象
     }).then((HttpClientResponse response){

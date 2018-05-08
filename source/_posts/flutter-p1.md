@@ -6,7 +6,7 @@ tags: [Flutter,Dart,跨平台]
 ---
 
 ## 简介
-先说下这个框架吧,总体上感觉不错,性能总体上测试过了,加载大量图片和数据的情况性能绝对完爆React native,并且语法我也一看就觉得很熟悉,dart这个语言对于熟悉Android开发的人来说很容易上手,这挺像是Java和javascript的结合体,基本不用看语法也可以入门,并且有react native的状态这个概念更容易理解,总的来说,如果给我react native和flutter选一个来开发大型App的话,毫无疑问,我肯定是选Flutter,最重要的是性能,最重要的是性能,最重要的是性能!!
+先说下这个框架吧,总体上感觉不错,性能总体上测试过了,加载大量图片和数据的情况性能绝对完爆React native,并且语法我也一看就觉得很熟悉,dart这个语言对于熟悉Android开发的人来说很容易上手,这挺像是Java和javascript的结合体,基本不用看语法也可以入门,并且有react native的状态这个概念更容易理解,总的来说,如果给我react native和flutter选一个来开发App的话,毫无疑问,我肯定是选Flutter,最重要的是性能,最重要的是性能,最重要的是性能!!
 
 <!-- more -->
 
